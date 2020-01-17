@@ -1,8 +1,10 @@
+package Day2;
+
 import java.io.*;
 import java.util.UUID;
 
 /**
- * @ClassName FileCopy
+ * @ClassName Day2.FileCopy
  * @Description TODO
  * @Author YangJinG
  * @Date 2020/1/14

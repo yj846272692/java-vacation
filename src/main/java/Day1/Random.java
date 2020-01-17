@@ -1,3 +1,5 @@
+package Day1;
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -7,7 +9,7 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * @ClassName Random
+ * @ClassName Day1.Random
  * @Description TODO
  * @Author YangJinG
  * @Date 2020/1/13
@@ -20,7 +22,7 @@ public class Random {
             int temp = (int) (Math.random() * 100);
             list.add(temp);
         }
-        File file = new File("D:/Random.txt");
+        File file = new File("D:/Day1.Random.txt");
         if (!file.exists()) {
             System.out.println("正在创建...");
             try {
